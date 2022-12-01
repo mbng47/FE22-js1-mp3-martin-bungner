@@ -1,0 +1,35 @@
+body {
+    padding: 20px;
+    background-color: hsl(180, 100%, 50%, 0.2);
+}
+
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#flex-container {
+    margin-top: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.country-cards {
+    margin: 1em;
+    padding: 1em;
+    flex-basis: 20%;
+}
+
+.country-cards>img {
+    max-width: 60%;
+    height: 5em;
+}
+
+
+#errorMessage {
+    margin-top: 2em;
+    color: orangered;
+}
